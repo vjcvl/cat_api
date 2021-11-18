@@ -1,0 +1,32 @@
+*{
+    background-color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+#grid1,#grid{
+  width: 32%;
+  padding: 10px;
+  border: orangered;
+}
+img{
+    width: 400px;
+    height: 300px;
+    padding-left: 5px;
+}
+#filter{
+    height: 30px;
+    align-content: center;
+    padding-left: 100px;
+    width: 50%;
+}
+#txt{
+    position: sticky;
+    height: 30px;
+    padding-left: 50px;
+}
